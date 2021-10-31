@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.disneyLogo{
+    width: 5rem;
+    height: 100%;
+    margin-right: 2rem;
+    padding-top: 0.2rem;
+}
+
+header{
+    background-image: linear-gradient(to bottom, #090B13, #15161b);
+    padding-left: 1.5rem;
+}
+
+.icono{
+    height: 1.5rem;
+    width: 1.4rem;
+    margin-right: -1rem;
+}
+
+a {
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 90%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: all .3s;
+    margin: 0 1rem;
+}
+
+a:hover, a:focus {
+    background-size: 100% 2px;
+    transition: .1s;
+}
+
+main{
+    background-image: linear-gradient(to bottom, #15161b, #252939, #26262e, #2b2b3b, #000000);
+}
+
+footer{
+    padding: 1rem 25%;
+    background-color: #000;
+    font-size: .8rem;
+}
+
+footer > div > div > div > div > ul{
+    list-style: none;
+    padding: 0 15%;
+}
+
+footer > div > div > div > div > ul > li > a{
+    text-decoration: none;
+    color: #fff;
+}  
+
+footer > div > div > div > div > ol{
+    list-style: none;
+    padding: 0 15%;
+}
+footer > div > div > div > div > ol > li > a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.paddingtext{
+    padding: 0 15%;
+    text-align: center;
+}
+
+.boxCat1{
+    height: 180px;
+    width: 320px;
+    border: 1px solid #fff;
+    border-radius: 1rem;
+    box-shadow: 0.05rem 0.8rem 0.5rem #000;
+    margin: 2.5rem 1rem;
+}
+
+.boxCat1 > img{
+    width: 100%;
+    height: 100%;
+}
+
+.boxCat2{
+    height: 180px;
+    width: 320px;
+    box-shadow: 0.05rem 0.8rem 0.5rem #000;
+    margin: 2.5rem 1rem;
+}
+
+.boxCat2 > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-repeat: no-repeat;
+}
+
+.titulosbox{
+    margin: -1.5rem 1.5rem;
+}
+
+.zoom {
+    transition: transform .4s; 
+}
+
+.zoom:hover {
+    transform: scale(1.1); 
+}
+
+.tamañoimg{
+    height: 400px;
+    width: 100%;
+    margin: 2rem 0;
+    padding: 0 3%;
+}
